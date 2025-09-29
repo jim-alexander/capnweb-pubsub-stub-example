@@ -1,0 +1,24 @@
+{
+  "name": "pubsub",
+  "version": "1.0.0",
+  "description": "Cap'n Web pub/sub example with TypeScript",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "server": "tsx server.ts",
+    "client": "tsx client.ts",
+    "start": "npm run server"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/ws": "^8.18.1",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "capnweb": "^0.1.0",
+    "ws": "^8.18.3"
+  }
+}
